@@ -1,5 +1,5 @@
 FROM debian:bookworm
-MAINTAINER budde96, https://github.com/budde96
+MAINTAINER CrimsonCreamMeme, https://github.com/CrimsonCreamMeme
 
 RUN apt-get update && apt-get -y install ngircd vim tor build-essential libssl-dev python3-setuptools python3-pip supervisor
 ADD ./ssl/server.crt /etc/ngircd/server.crt
